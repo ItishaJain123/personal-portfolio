@@ -10,32 +10,17 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Fab Wall",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Portfolio",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
+      title: "Edu Sphere",
       description: "Design & Development",
       imgUrl: projImg3,
     },
@@ -55,11 +40,15 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    These highlights showcase two key projects that blend
+                    creativity with precision. The first project features a
+                    mobile-friendly layout with interactive pages, ensuring
+                    effortless navigation and an engaging user experience. The
+                    second project offers a clean, user-centric interface
+                    equipped with robust search and filter tools for rapid
+                    content discovery. Both initiatives emphasize performance,
+                    simplicity, and appealing design—delivering solutions that
+                    are visually captivating, and responsive.
                   </p>
                   <Row>
                     {projects.map((project, index) => (
