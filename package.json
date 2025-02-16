@@ -1,6 +1,6 @@
 {
-  "name": "personal-portfolio",
   "homepage": "https://ItishaJain123.github.io/personal-portfolio/",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
